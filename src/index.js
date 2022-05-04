@@ -33,7 +33,7 @@ return (
         <main>
             <Routes>
                 <Route path="/" element={<Home/>}/> 
-                <Route path=".netlify.app/Catalogo" element={<ItemListContainer/>}/>
+                <Route path="/Catalogo" element={<ItemListContainer/>}/>
                 <Route path="/Informacion" element={<AboutUs/>}/>
                 <Route path="/Contacto" element={<Contact/>}/>
                 <Route path="/Cart" element={<Cart/>}/>
